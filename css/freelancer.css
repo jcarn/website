@@ -40,14 +40,14 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #18BC9C; }
+  background-color: bg-primary; }
 
 hr.star-dark {
   border-color: #2C3E50; }
 
 hr.star-dark:after {
   color: #2C3E50;
-  background-color: white; }
+  background-color: bg-primary; }
 
 section {
   padding: 6rem 0; }
@@ -130,10 +130,11 @@ section {
 
 header.masthead {
   padding-top: calc(6rem + 72px);
-  padding-bottom: 6rem; }
+  padding-bottom: 6rem;
+  color: #664515; }
   header.masthead h1 {
     font-size: 3rem;
-    line-height: 3rem; }
+    line-height: 3rem;}
   header.masthead h2 {
     font-size: 1.3rem;
     font-family: 'Lato'; }
@@ -259,10 +260,13 @@ a {
   border-width: 2px; }
 
 .bg-primary {
-  background-color: #18BC9C !important; }
+  background-color: #ffefd5 !important; }
 
 .bg-secondary {
   background-color: #2C3E50 !important; }
+
+.brownc {
+  color: #664515; }
 
 .text-primary {
   color: #18BC9C !important; }
