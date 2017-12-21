@@ -15,6 +15,11 @@ h6 {
   font-weight: 700;
   font-family: 'Montserrat'; }
 
+:root {
+    --coffee_color: #664515;
+    --cream_color: #ffefd5;
+}
+
 hr.star-light,
 hr.star-dark {
   max-width: 15rem;
@@ -43,10 +48,10 @@ hr.star-light:after {
   background-color: bg-primary; }
 
 hr.star-dark {
-  border-color: #2C3E50; }
+  border-color: var(--coffee_color); }
 
 hr.star-dark:after {
-  color: #2C3E50;
+  color: var(--coffee_color);
   background-color: bg-primary; }
 
 section {
@@ -93,7 +98,7 @@ section {
     #mainNav .navbar-nav li.nav-item a.nav-link {
       color: #fff; }
       #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-        color: #18BC9C; }
+        color: var(--cream_color); }
       #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
         color: #fff; }
       #mainNav .navbar-nav li.nav-item a.nav-link.active {
@@ -117,11 +122,11 @@ section {
     #mainNav .navbar-nav {
       margin-top: 0; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-      color: #fff;
-      background: #18BC9C; }
+      color: var(--coffee_color);
+      background: var(--cream_color); }
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-        color: #fff;
-        background: #18BC9C; }
+        color: var(--coffee_color);
+        background: var(--cream_color); }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem; }
@@ -265,11 +270,28 @@ a {
 .bg-secondary {
   background-color: #2C3E50 !important; }
 
+.bg-tertiary {
+  background-color: var(--coffee_color) !important;
+}
+
 .brownc {
   color: #664515; }
 
 .text-primary {
-  color: #18BC9C !important; }
+  color: var(--coffee_color) !important; }
+
+.info-headings {
+  color: var(--coffee_color) !important;
+}
+
+.info-headings-2 {
+  color: var(--cream_color) !important;
+}
+
+.info-text {
+  color: var(--coffee_color) !important;
+  font-size: 1.25rem;
+}
 
 .text-secondary {
   color: #2C3E50 !important; }
